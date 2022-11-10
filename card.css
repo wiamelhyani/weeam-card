@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+.card{
+    width: 50rem;
+    height:30rem ;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.cardpic{
+   background-image: url('cardpic.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+.cardbody{
+    display: flex;
+    flex-direction: column;
+    padding: 40px; 
+}
+.cardbody h4{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(82, 78, 78);
+}
+.cardbody .title{
+    font-size: 50px;
+} 
+.cardbody .description{
+    font-size: 25px;
+    color: rgb(70, 63, 63);
+    line-height: 35px;
+    font-family: sans-serif;
+}
+.cardbody .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cardbody .price1{
+    font-size: 40px;
+    color:rgb(50, 77, 30) ;
+}
+.cardbody .price2{
+    display: flex;
+    float: right;
+    text-decoration: line-through;
+}
+.cardbody .cardbtn{
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(34, 54, 19);
+    border-radius: 10px;
+}
